@@ -1,0 +1,6 @@
+set.seed(123)  
+x1 <- rnorm(100) 
+x2 <- rnorm(100)  
+y <- 2*x1 + 3*x2 + rnorm(100)  
+model <- lm(y ~ x1 + x2)
+summary(model)

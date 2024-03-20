@@ -1,0 +1,2 @@
+boxplot(mtcars$mpg)
+
